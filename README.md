@@ -1,8 +1,8 @@
 # testcontainers-node-playwright
 
-[![Test](https://github.com/javierlopezdeancos/testcontainers-node-playwright/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/javierlopezdeancos/testcontainers-node-playwright/actions/workflows/test.yml)
+[![Test](https://github.com/d3v3l0p3z/testcontainers-node-playwright/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/d3v3l0p3z/testcontainers-node-playwright/actions/workflows/test.yml)
 ![NPM Version](https://img.shields.io/npm/v/testcontainers-node-playwright)
-![GitHub License](https://img.shields.io/github/license/javierlopezdeancos/testcontainers-node-playwright)
+![GitHub License](https://img.shields.io/github/license/d3v3l0p3z/testcontainers-node-playwright)
 
 ![Testcontainers logo](https://avatars.githubusercontent.com/u/13393021?s=48&v=4)
 <img src="https://playwright.dev/img/playwright-logo.svg" alt="playwright logo" width="50"/>
@@ -207,11 +207,11 @@ await startedPlaywrightContainer.saveReporter("json", externalDestinationReporte
 
 #### Execute tests in a Playwright container with default configuration and extract a blob reporter with results
 
-This functionality get some changes from [v1.44.0](https://github.com/javierlopezdeancos/testcontainers-node-playwright/pull/7#:~:text=at%20the%20changelog-,v1.44.0,-to%20the%20new) version or Playwright that introduce the blob report filename generation automatically adding a hash.
+This functionality get some changes from [v1.44.0](https://github.com/d3v3l0p3z/testcontainers-node-playwright/pull/7#:~:text=at%20the%20changelog-,v1.44.0,-to%20the%20new) version or Playwright that introduce the blob report filename generation automatically adding a hash.
 
 You can read more about in the official [blob-reporter](https://playwright.dev/docs/test-reporters#blob-reporter) playwright documentation section.
 
-Those changes are reflected in the [PR #7](https://github.com/javierlopezdeancos/testcontainers-node-playwright/pull/7), taking a a workaround to get the blob reporter output filename for now, but that obviously will be removed in the future.
+Those changes are reflected in the [PR #7](https://github.com/d3v3l0p3z/testcontainers-node-playwright/pull/7), taking a a workaround to get the blob reporter output filename for now, but that obviously will be removed in the future.
 
 > [!CAUTION]
 > This approach implies that you need to set the `PLAYWRIGHT_BLOB_OUTPUT_NAME` environment variable in the container with the name of the blob output file that you want to generate to be fixed and recoverable without need to read any `report-{hash}.zip` filename.
@@ -309,7 +309,7 @@ container that is running the web application that we want to test in our same e
 To testing purposes we are using an image that allow us run a container with a simple web server that serve
 a simple html with some vanilla javascript behavior.
 
-This app has the [source code](https://github.com/javierlopezdeancos/example-hello-world-app?tab=readme-ov-file) and the
+This app has the [source code](https://github.com/d3v3l0p3z/example-hello-world-app?tab=readme-ov-file) and the
 [docker image pushed](https://hub.docker.com/repository/docker/javierland/example-hello-world-app/general) to use
 it here as container application to check if the playwright container can pass its tests.
 

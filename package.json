@@ -8,7 +8,7 @@
     "url": "https://javierlopezdeancos.dev"
   },
   "contributors": [
-    "Javier Lopez de Ancos <javierlopezdeancos@outlook.com> (https://github.com/javierlopezdeancos)"
+    "Javier Lopez de Ancos <javierlopezdeancos@outlook.com> (https://github.com/d3v3l0p3z)"
   ],
   "engines": {
     "node": ">=24.18.0",
@@ -21,13 +21,13 @@
     "testcontainers"
   ],
   "description": "Playwright module for Testcontainers",
-  "homepage": "https://github.com/javierlopezdeancos/testcontainers-node-playwright#readme",
+  "homepage": "https://github.com/d3v3l0p3z/testcontainers-node-playwright#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/javierlopezdeancos/testcontainers-node-playwright"
+    "url": "https://github.com/d3v3l0p3z/testcontainers-node-playwright"
   },
   "bugs": {
-    "url": "https://github.com/javierlopezdeancos/testcontainers-node-playwright/issues"
+    "url": "https://github.com/d3v3l0p3z/testcontainers-node-playwright/issues"
   },
   "main": "build/index.js",
   "files": [
